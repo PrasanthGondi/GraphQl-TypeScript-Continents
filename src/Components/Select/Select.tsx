@@ -14,7 +14,7 @@ const Select = (props:SelectProps) => {
     const OnChangee = (e: React.ChangeEvent<HTMLSelectElement>)=> {
         const newValue = e.target.value;
         updateContinentCodeFunction(newValue);
-        navigate('/display')
+        navigate('/GraphQl-TypeScript-Continents/display')
      }
 
     return(<div className="selectdiv"><h1 className="ccheading1">Continents and Countries</h1>

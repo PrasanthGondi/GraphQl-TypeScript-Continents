@@ -18,7 +18,7 @@ const DisplayComponent = (props:Props) => {
   }
 
   return(<div className="App container">
-    <Link to="/"><button className="buttonDisplay">To Selection</button></Link>
+    <Link to="/GraphQl-TypeScript-Continents/"><button className="buttonDisplay">To Selection</button></Link>
   <div className='container1'>
     <h1 className='heading'>Continent : {name}</h1>
     <h3 className='heading'>Code : {code}</h3>

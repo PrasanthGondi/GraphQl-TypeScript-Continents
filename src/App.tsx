@@ -34,8 +34,8 @@ const App: React.FC = ()  => {
     <div className='div1'>
       <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Select countryCode={countryCode} updateContinentCodeFunction={updateContinentCodeFunction} />} />
-        <Route path="/display" element={<DisplayComponent {...continent} />} />
+        <Route path="/GraphQl-TypeScript-Continents/" element={<Select countryCode={countryCode} updateContinentCodeFunction={updateContinentCodeFunction} />} />
+        <Route path="/GraphQl-TypeScript-Continents/display" element={<DisplayComponent {...continent} />} />
       </Routes>
       </BrowserRouter>
     </div>
