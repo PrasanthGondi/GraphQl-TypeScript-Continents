@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/GraphQl-TypeScript-Continents/static/css/main.70467f48.css",
+    "main.js": "/GraphQl-TypeScript-Continents/static/js/main.7af022de.js",
+    "static/js/787.28cb0dcd.chunk.js": "/GraphQl-TypeScript-Continents/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/GraphQl-TypeScript-Continents/index.html",
+    "main.70467f48.css.map": "/GraphQl-TypeScript-Continents/static/css/main.70467f48.css.map",
+    "main.7af022de.js.map": "/GraphQl-TypeScript-Continents/static/js/main.7af022de.js.map",
+    "787.28cb0dcd.chunk.js.map": "/GraphQl-TypeScript-Continents/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70467f48.css",
+    "static/js/main.7af022de.js"
+  ]
+}
