@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useState, useEffect} from 'react';
 
 import "./App.css"
 
@@ -25,6 +25,10 @@ const App: React.FC = ()  => {
   const updateContinentCodeFunction = (value:string):void => {
     changeCountryCode(value)
   }
+ 
+ useEffect(() => {
+     document.title = "Continents";  
+   }, []);
 
   if (loading) return <div>Loading...</div>;
   if (error) return <div>There was an error</div>;
